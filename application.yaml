@@ -1,0 +1,44 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+
+
+config:
+  agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+  referrer: "https://www.google.com"
+  timeout-min: 50
+  timeout-max: 150
+  sites:
+    - url: https://volochek.life/
+      name: Вышний Волочёк
+    - url: https://www.skillbox.ru
+      name: Skillbox
+    - url: https://www.playback.ru
+      name: PlayBack.Ru
+    - url: https://www.svetlovka.ru
+      name: Библиотека
+    - url: http://radiomv.ru
+      name: Милицейская волна
+    - url: https://ipfran.ru
+      name: Институт прикладной физики Российской академии наук
+    - url: https://dimonvideo.ru
+      name: DIMONVIDEO
+    - url: https://nikoartgallery.com
+      name: Niko ART GALLERY
+    - url: https://et-cetera.ru/mobile
+      name: Театр «Et Cetera»
+    - url: https://www.lutherancathedral.ru
+      name: Кафедральный собор святых Петра и Павла
+    - url: https://www.lenta.ru
+      name: Лента.ру
