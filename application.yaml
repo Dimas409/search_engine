@@ -20,25 +20,7 @@ config:
   timeout-min: 50
   timeout-max: 150
   sites:
-    - url: https://volochek.life/
-      name: Вышний Волочёк
-    - url: https://www.skillbox.ru
-      name: Skillbox
     - url: https://www.playback.ru
       name: PlayBack.Ru
     - url: https://www.svetlovka.ru
       name: Библиотека
-    - url: http://radiomv.ru
-      name: Милицейская волна
-    - url: https://ipfran.ru
-      name: Институт прикладной физики Российской академии наук
-    - url: https://dimonvideo.ru
-      name: DIMONVIDEO
-    - url: https://nikoartgallery.com
-      name: Niko ART GALLERY
-    - url: https://et-cetera.ru/mobile
-      name: Театр «Et Cetera»
-    - url: https://www.lutherancathedral.ru
-      name: Кафедральный собор святых Петра и Павла
-    - url: https://www.lenta.ru
-      name: Лента.ру
